@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">MineSpray</string>
+    <string name="tagline">کنترل هوشمند گرد و غبار جاده‌های باربری</string>
+    <string name="nav_overview">نمای کلی</string><string name="nav_map">نقشه</string><string name="nav_zones">مناطق</string>
+    <string name="nav_fleet">ناوگان</string><string name="nav_control">کنترل</string><string name="nav_settings">تنظیمات</string>
+    <string name="mine_name">معدن پیت شمالی</string><string name="shift_day">شیفت روز</string>
+    <string name="sys_online">سیستم آنلاین (آزمایشی)</string><string name="auto_mode">حالت خودکار</string><string name="manual">دستی</string>
+    <string name="road_condition">وضعیت جاده‌های معدن</string><string name="dust_risk_fmt">ریسک گرد و غبار: %1$s</string>
+    <string name="risk_high">بالا</string><string name="risk_mod">متوسط</string><string name="risk_low">پایین</string>
+    <string name="avg_moisture_fmt">میانگین رطوبت: %1$d%%</string><string name="critical_zones_fmt">مناطق بحرانی: %1$d</string>
+    <string name="watering_required">نیاز به آبپاشی</string><string name="roads_ok">جاده‌ها مناسب</string>
+    <string name="m_dust">شاخص گرد و غبار</string><string name="m_moisture">میانگین رطوبت</string><string name="m_used">آب مصرفی امروز</string>
+    <string name="m_saved">آب صرفه‌جویی‌شده</string><string name="m_active">مناطق فعال</string><string name="m_critical">مناطق بحرانی</string>
+    <string name="sub_high">بالا</string><string name="sub_ok">مناسب</string><string name="sub_low">پایین</string><string name="sub_demo">داده آزمایشی</string>
+    <string name="sub_est">تخمینی نسبت به آبپاشی دستی</string><string name="sub_sensors">سنسور آنلاین</string><string name="sub_attention">نیازمند توجه</string><string name="sub_none">هیچ</string>
+    <string name="liters_fmt">%1$,d لیتر</string>
+    <string name="active_watering">آبپاشی فعال</string><string name="no_active">عملیات آبپاشی فعالی وجود ندارد.</string>
+    <string name="truck_zone_title_fmt">%1$s به منطقه %2$d</string>
+    <string name="active_stats_fmt">شدت %1$d%% • %2$d کیلومتر/ساعت • %3$d لیتر/دقیقه • مخزن %4$d%%</string><string name="view_operation">مشاهده عملیات</string>
+    <string name="priority_zones">مناطق اولویت آبپاشی</string><string name="event_log">گزارش رویدادها</string>
+    <string name="log_started">سیستم راه‌اندازی شد (داده آزمایشی)</string><string name="log_scenario_fmt">سناریو: %1$s</string>
+    <string name="log_auto_on">حالت خودکار فعال شد</string><string name="log_auto_off">حالت دستی (لغو اتوماسیون) فعال شد</string>
+    <string name="log_manual_fmt">آبپاشی دستی: %1$s در منطقه %2$s</string><string name="log_spraying_fmt">%1$s در حال آبپاشی منطقه %2$s</string>
+    <string name="log_completed_fmt">آبپاشی منطقه %1$s تکمیل شد</string><string name="log_assign_fmt">خودکار: %1$s به منطقه %2$s اختصاص یافت (ریسک %3$s)</string>
+    <string name="search_zones">جستجوی مناطق</string><string name="f_all">همه</string><string name="f_normal">عادی</string><string name="f_warning">هشدار</string>
+    <string name="f_critical">بحرانی</string><string name="f_spraying">در حال آبپاشی</string><string name="no_zones">منطقه‌ای با این فیلتر یافت نشد.</string>
+    <string name="back">بازگشت</string><string name="zone_fmt">منطقه %1$02d</string>
+    <string name="card_l1_fmt">ریسک %1$d/100 • گرد و غبار %2$d%% • رطوبت %3$d%%</string>
+    <string name="card_l2_fmt">%1$d°C • ترافیک %2$s • آبپاشی %3$d دقیقه پیش</string>
+    <string name="sensor_offline_warn">⚠ سنسور آفلاین</string><string name="action_fmt">اقدام: %1$s</string>
+    <string name="sensor_data">داده‌های سنسور</string><string name="l_dust">سطح گرد و غبار</string><string name="l_moisture">رطوبت جاده</string>
+    <string name="l_temp">دمای هوا</string><string name="l_humidity">رطوبت نسبی</string><string name="l_wind">باد</string><string name="l_traffic">ترافیک</string>
+    <string name="l_surface">وضعیت سطح</string><string name="l_last">آخرین آبپاشی</string><string name="l_sensor">سنسور</string>
+    <string name="online">آنلاین</string><string name="offline">آفلاین</string><string name="dry">خشک</string><string name="damp">نمناک</string><string name="wet">خیس</string>
+    <string name="min_ago_fmt">%1$d دقیقه پیش</string><string name="pct_fmt">%1$d%%</string><string name="temp_fmt">%1$d°C</string><string name="kmh_fmt">%1$d کیلومتر/ساعت</string>
+    <string name="rec_title">اقدام پیشنهادی</string><string name="act_now">آبپاشی فوری</string><string name="act_soon">آبپاشی در آینده نزدیک</string><string name="act_none">نیازی به اقدام نیست</string>
+    <string name="sugg_fmt">شدت پیشنهادی: %1$d%%</string><string name="est_water_fmt">آب تخمینی: %1$,d لیتر</string><string name="priority_fmt">اولویت: %1$s</string>
+    <string name="no_water_needed">آبپاشی لازم نیست. رطوبت جاده کافی است — از آبپاشی بیش‌ازحد خودداری کنید.</string>
+    <string name="control_title">کنترل هوشمند آبپاشی</string><string name="sys_mode">حالت سیستم</string><string name="mode_auto">خودکار</string>
+    <string name="mode_manual">دستی (لغو اتوماسیون)</string><string name="engine_title_fmt">موتور تصمیم‌گیری هوشمند — منطقه %1$d %2$s</string>
+    <string name="engine_l1_fmt">گرد و غبار %1$d%% • رطوبت %2$d%% • %3$d°C • رطوبت هوا %4$d%%</string>
+    <string name="engine_l2_fmt">باد %1$d کیلومتر/ساعت • ترافیک %2$s • آخرین آبپاشی %3$d دقیقه</string>
+    <string name="risk_analysis">↓ تحلیل ریسک</string><string name="risk_score_fmt">امتیاز ریسک: %1$d از 100</string><string name="sys_decision">↓ تصمیم سیستم</string>
+    <string name="no_spray">نیازی به آبپاشی نیست</string><string name="spray_required_fmt">آبپاشی لازم است • %1$s</string><string name="rec_intensity_fmt">شدت پیشنهادی: %1$d%%</string>
+    <string name="why_title">چرا سیستم این اقدام را انتخاب کرد؟</string>
+    <string name="why_moisture_fmt">• رطوبت جاده به‌شدت پایین است (%1$d%%).</string><string name="why_dust_fmt">• سطح گرد و غبار بالاست (%1$d%%).</string>
+    <string name="why_traffic">• ترافیک سنگین باعث افزایش گرد و غبار می‌شود.</string><string name="why_temp">• دمای بالا خشک شدن جاده را تسریع می‌کند.</string>
+    <string name="why_old">• آخرین آبپاشی بیش از دو ساعت پیش بوده است.</string><string name="why_ok">• همه ورودی‌ها در محدوده ایمن است؛ آب اضافه خطر گلی و لغزنده شدن جاده را دارد.</string>
+    <string name="manual_title">کنترل دستی — حالت خودکار را لغو می‌کند</string><string name="zone_pick_fmt">منطقه %1$d: %2$s</string>
+    <string name="intensity_flow_fmt">شدت پاشش %1$d%% • دبی تخمینی %2$d لیتر/دقیقه</string><string name="start_spray">شروع آبپاشی</string><string name="stop">توقف</string>
+    <string name="confirm_title">لغو دستی اتوماسیون</string><string name="confirm_text_fmt">آبپاشی دستی در منطقه %1$d با شدت %2$d%% شروع شود؟ این کار کنترل خودکار را لغو می‌کند.</string>
+    <string name="confirm">تأیید</string><string name="cancel">انصراف</string>
+    <string name="trucks_title">کامیون‌های آبپاش</string><string name="fleet_summary_fmt">کل %1$d • در حال آبپاشی %2$d • در حال پر شدن %3$d • آفلاین 0</string>
+    <string name="refill_stations">ایستگاه‌های آب‌گیری</string><string name="station_a_fmt">ایستگاه A — %1$s • صف %2$d</string><string name="station_b_fmt">ایستگاه B — %1$s • صف 0</string>
+    <string name="avail">آزاد</string><string name="busy">مشغول</string>
+    <string name="tank_fmt">مخزن %1$d%% (%2$,d از 50,000 لیتر)</string><string name="truck_info_fmt">منطقه: %1$s • %2$d کیلومتر/ساعت • %3$d لیتر/دقیقه • GPS آنلاین</string><string name="low_tank">⚠ مخزن کم</string>
+    <string name="st_idle">آماده</string><string name="st_enroute">در مسیر</string><string name="st_spraying">در حال آبپاشی</string><string name="st_refilling">در حال آب‌گیری</string>
+    <string name="map_title">نقشه معدن</string><string name="map_hint">برای جزئیات روی منطقه بزنید. نقطه‌های کهربایی کامیون‌های آبپاش هستند.</string><string name="legend">راهنما</string>
+    <string name="leg_ok">رطوبت کافی</string><string name="leg_warn">ممکن است نیاز به آبپاشی باشد</string><string name="leg_crit">گرد و غبار بحرانی</string>
+    <string name="leg_water">در حال آبپاشی</string><string name="leg_off">آفلاین</string>
+    <string name="map_crusher">سنگ‌شکن</string><string name="map_refill">آب‌گیری</string><string name="map_loading">بارگیری</string><string name="map_dump">تخلیه</string>
+    <string name="sc_normal">عملیات عادی</string><string name="sc_high_dust">رویداد گرد و غبار شدید</string><string name="sc_heat">گرمای شدید</string><string name="sc_traffic">ترافیک سنگین</string>
+    <string name="sc_low_water">کمبود آب</string><string name="sc_sensor">خرابی سنسور</string><string name="sc_emergency">اضطراری گرد و غبار</string>
+    <string name="lvl_normal">عادی</string><string name="lvl_warning">هشدار</string><string name="lvl_critical">بحرانی</string>
+    <string name="tr_low">کم</string><string name="tr_med">متوسط</string><string name="tr_high">زیاد</string>
+    <string name="settings_title">تنظیمات</string><string name="set_general">عمومی</string><string name="set_language">زبان</string>
+    <string name="lang_en">English</string><string name="lang_fa">فارسی</string>
+    <string name="set_smart">کنترل هوشمند</string><string name="auto_watering">آبپاشی خودکار</string><string name="auto_dispatch">اعزام خودکار</string>
+    <string name="conserve">حالت صرفه‌جویی آب</string><string name="overwater">محافظت در برابر آبپاشی بیش‌ازحد</string>
+    <string name="set_notif">اعلان‌ها</string><string name="n_critical">هشدارهای بحرانی</string><string name="n_warning">هشدارهای عادی</string>
+    <string name="n_truck">هشدارهای کامیون</string><string name="n_sensor">هشدارهای سنسور</string>
+    <string name="set_data">داده</string><string name="refresh_fmt">فاصله به‌روزرسانی: %1$d ثانیه</string><string name="demo_mode">حالت دمو / داده آزمایشی</string>
+    <string name="api_config">تنظیمات API</string><string name="api_placeholder">متصل نیست (محل اتصال به FastAPI)</string>
+    <string name="set_about">درباره</string><string name="about_version_fmt">MineSpray • نسخه %1$s</string>
+    <string name="about_desc">سامانه مدیریت هوشمند و خودکار آبپاشی جاده‌های باربری معدن. نمونه اولیه رابط کاربری با داده آزمایشی.</string>
+    <string name="local_note">برخی گزینه‌ها فعلاً به‌صورت محلی ذخیره می‌شوند و بعداً به بک‌اند متصل خواهند شد.</string>
+    <string-array name="zone_names">
+        <item>خروجی گودال</item><item>رمپ جنوبی</item><item>ناحیه بارگیری</item><item>رمپ شمالی</item><item>تقاطع A</item><item>جاده شرقی باربری</item>
+        <item>جاده سنگ‌شکن</item><item>دسترسی تخلیه</item><item>پله غربی</item><item>جاده آب‌گیری</item><item>جاده خدماتی</item><item>جاده خط‌الراس</item>
+    </string-array>
+</resources>

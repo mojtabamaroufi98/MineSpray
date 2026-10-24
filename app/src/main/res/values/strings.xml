@@ -1,0 +1,236 @@
+<resources>
+
+    <string name="app_name">MineSpray</string>
+    <string name="tagline">Smart Haul Road Dust Control</string>
+
+    <!-- Navigation -->
+    <string name="nav_overview">Overview</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_zones">Zones</string>
+    <string name="nav_fleet">Fleet</string>
+    <string name="nav_control">Control</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Overview -->
+    <string name="mine_name">North Pit Mine</string>
+    <string name="shift_day">Day Shift</string>
+    <string name="sys_online">System Online (Demo)</string>
+    <string name="auto_mode">Auto Mode</string>
+    <string name="manual">Manual</string>
+    <string name="road_condition">Mine Road Conditions</string>
+    <string name="dust_risk_fmt">Dust Risk: %1$s</string>
+    <string name="risk_high">High</string>
+    <string name="risk_mod">Moderate</string>
+    <string name="risk_low">Low</string>
+    <string name="avg_moisture_fmt">Average Moisture: %1$d%%</string>
+    <string name="critical_zones_fmt">Critical Zones: %1$d</string>
+    <string name="watering_required">Watering Required</string>
+    <string name="roads_ok">Roads OK</string>
+
+    <!-- Metrics -->
+    <string name="m_dust">Dust Index</string>
+    <string name="m_moisture">Average Moisture</string>
+    <string name="m_used">Water Used Today</string>
+    <string name="m_saved">Water Saved</string>
+    <string name="m_active">Active Zones</string>
+    <string name="m_critical">Critical Zones</string>
+    <string name="sub_high">High</string>
+    <string name="sub_ok">OK</string>
+    <string name="sub_low">Low</string>
+    <string name="sub_demo">Demo Data</string>
+    <string name="sub_est">Estimated vs. Manual Watering</string>
+    <string name="sub_sensors">Online Sensors</string>
+    <string name="sub_attention">Needs Attention</string>
+    <string name="sub_none">None</string>
+    <string name="liters_fmt">%1$,d L</string>
+
+    <!-- Active Watering -->
+    <string name="active_watering">Active Watering</string>
+    <string name="no_active">There are no active watering operations.</string>
+    <string name="truck_zone_title_fmt">%1$s to Zone %2$d</string>
+    <string name="active_stats_fmt">Intensity %1$d%% • %2$d km/h • %3$d L/min • Tank %4$d%%</string>
+    <string name="view_operation">View Operation</string>
+    <string name="priority_zones">Watering Priority Zones</string>
+    <string name="event_log">Event Log</string>
+
+    <!-- Logs -->
+    <string name="log_started">System started (Demo Data)</string>
+    <string name="log_scenario_fmt">Scenario: %1$s</string>
+    <string name="log_auto_on">Auto mode enabled</string>
+    <string name="log_auto_off">Manual mode enabled (Automation Override)</string>
+    <string name="log_manual_fmt">Manual watering: %1$s in Zone %2$s</string>
+    <string name="log_spraying_fmt">%1$s is watering Zone %2$s</string>
+    <string name="log_completed_fmt">Watering of Zone %1$s completed</string>
+    <string name="log_assign_fmt">Auto: %1$s assigned to Zone %2$s (Risk %3$s)</string>
+
+    <!-- Zones -->
+    <string name="search_zones">Search Zones</string>
+    <string name="f_all">All</string>
+    <string name="f_normal">Normal</string>
+    <string name="f_warning">Warning</string>
+    <string name="f_critical">Critical</string>
+    <string name="f_spraying">Watering</string>
+    <string name="no_zones">No zones found with this filter.</string>
+    <string name="back">Back</string>
+    <string name="zone_fmt">Zone %1$02d</string>
+    <string name="card_l1_fmt">Risk %1$d/100 • Dust %2$d%% • Moisture %3$d%%</string>
+    <string name="card_l2_fmt">%1$d°C • Traffic %2$s • Watered %3$d min ago</string>
+    <string name="sensor_offline_warn">⚠ Sensor Offline</string>
+    <string name="action_fmt">Action: %1$s</string>
+
+    <!-- Sensor Data -->
+    <string name="sensor_data">Sensor Data</string>
+    <string name="l_dust">Dust Level</string>
+    <string name="l_moisture">Road Moisture</string>
+    <string name="l_temp">Air Temperature</string>
+    <string name="l_humidity">Relative Humidity</string>
+    <string name="l_wind">Wind</string>
+    <string name="l_traffic">Traffic</string>
+    <string name="l_surface">Surface Condition</string>
+    <string name="l_last">Last Watering</string>
+    <string name="l_sensor">Sensor</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="dry">Dry</string>
+    <string name="damp">Damp</string>
+    <string name="wet">Wet</string>
+    <string name="min_ago_fmt">%1$d min ago</string>
+    <string name="pct_fmt">%1$d%%</string>
+    <string name="temp_fmt">%1$d°C</string>
+    <string name="kmh_fmt">%1$d km/h</string>
+
+    <!-- Recommendations -->
+    <string name="rec_title">Recommended Action</string>
+    <string name="act_now">Water Now</string>
+    <string name="act_soon">Water Soon</string>
+    <string name="act_none">No Action Needed</string>
+    <string name="sugg_fmt">Suggested Intensity: %1$d%%</string>
+    <string name="est_water_fmt">Estimated Water: %1$,d L</string>
+    <string name="priority_fmt">Priority: %1$s</string>
+    <string name="no_water_needed">Watering is not needed. Road moisture is sufficient — avoid overwatering.</string>
+
+    <!-- Smart Control -->
+    <string name="control_title">Smart Watering Control</string>
+    <string name="sys_mode">System Mode</string>
+    <string name="mode_auto">Automatic</string>
+    <string name="mode_manual">Manual (Automation Override)</string>
+    <string name="engine_title_fmt">Smart Decision Engine — Zone %1$d %2$s</string>
+    <string name="engine_l1_fmt">Dust %1$d%% • Moisture %2$d%% • %3$d°C • Air Humidity %4$d%%</string>
+    <string name="engine_l2_fmt">Wind %1$d km/h • Traffic %2$s • Last watering %3$d min ago</string>
+    <string name="risk_analysis">↓ Risk Analysis</string>
+    <string name="risk_score_fmt">Risk Score: %1$d / 100</string>
+    <string name="sys_decision">↓ System Decision</string>
+    <string name="no_spray">No watering needed</string>
+    <string name="spray_required_fmt">Watering required • %1$s</string>
+    <string name="rec_intensity_fmt">Suggested Intensity: %1$d%%</string>
+
+    <!-- Why -->
+    <string name="why_title">Why did the system choose this action?</string>
+    <string name="why_moisture_fmt">• Road moisture is critically low (%1$d%%).</string>
+    <string name="why_dust_fmt">• Dust level is high (%1$d%%).</string>
+    <string name="why_traffic">• Heavy traffic increases dust generation.</string>
+    <string name="why_temp">• High temperature accelerates road drying.</string>
+    <string name="why_old">• The last watering was more than two hours ago.</string>
+    <string name="why_ok">• All inputs are within a safe range; additional water may create muddy and slippery road conditions.</string>
+
+    <!-- Manual Control -->
+    <string name="manual_title">Manual Control — Overrides Automatic Mode</string>
+    <string name="zone_pick_fmt">Zone %1$d: %2$s</string>
+    <string name="intensity_flow_fmt">Spray Intensity %1$d%% • Estimated Flow %2$d L/min</string>
+    <string name="start_spray">Start Watering</string>
+    <string name="stop">Stop</string>
+    <string name="confirm_title">Override Automation</string>
+    <string name="confirm_text_fmt">Start manual watering in Zone %1$d at %2$d%% intensity? This will override automatic control.</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Fleet -->
+    <string name="trucks_title">Water Trucks</string>
+    <string name="fleet_summary_fmt">Total %1$d • Watering %2$d • Refilling %3$d • Offline 0</string>
+    <string name="refill_stations">Refill Stations</string>
+    <string name="station_a_fmt">Station A — %1$s • Queue %2$d</string>
+    <string name="station_b_fmt">Station B — %1$s • Queue 0</string>
+    <string name="avail">Available</string>
+    <string name="busy">Busy</string>
+    <string name="tank_fmt">Tank %1$d%% (%2$,d of 50,000 L)</string>
+    <string name="truck_info_fmt">Zone: %1$s • %2$d km/h • %3$d L/min • GPS Online</string>
+    <string name="low_tank">⚠ Low Tank</string>
+    <string name="st_idle">Ready</string>
+    <string name="st_enroute">En Route</string>
+    <string name="st_spraying">Watering</string>
+    <string name="st_refilling">Refilling</string>
+
+    <!-- Map -->
+    <string name="map_title">Mine Map</string>
+    <string name="map_hint">Tap a zone for details. Amber dots represent water trucks.</string>
+    <string name="legend">Legend</string>
+    <string name="leg_ok">Sufficient Moisture</string>
+    <string name="leg_warn">May Need Watering</string>
+    <string name="leg_crit">Critical Dust</string>
+    <string name="leg_water">Watering</string>
+    <string name="leg_off">Offline</string>
+    <string name="map_crusher">Crusher</string>
+    <string name="map_refill">Refill</string>
+    <string name="map_loading">Loading</string>
+    <string name="map_dump">Dump</string>
+
+    <!-- Scenarios -->
+    <string name="sc_normal">Normal Operation</string>
+    <string name="sc_high_dust">Severe Dust Event</string>
+    <string name="sc_heat">Extreme Heat</string>
+    <string name="sc_traffic">Heavy Traffic</string>
+    <string name="sc_low_water">Low Water Supply</string>
+    <string name="sc_sensor">Sensor Failure</string>
+    <string name="sc_emergency">Dust Emergency</string>
+
+    <!-- Levels -->
+    <string name="lvl_normal">Normal</string>
+    <string name="lvl_warning">Warning</string>
+    <string name="lvl_critical">Critical</string>
+    <string name="tr_low">Low</string>
+    <string name="tr_med">Medium</string>
+    <string name="tr_high">High</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="set_general">General</string>
+    <string name="set_language">Language</string>
+    <string name="lang_en">English</string>
+    <string name="lang_fa">Persian</string>
+    <string name="set_smart">Smart Control</string>
+    <string name="auto_watering">Automatic Watering</string>
+    <string name="auto_dispatch">Automatic Dispatch</string>
+    <string name="conserve">Water Saving Mode</string>
+    <string name="overwater">Overwatering Protection</string>
+    <string name="set_notif">Notifications</string>
+    <string name="n_critical">Critical Alerts</string>
+    <string name="n_warning">Warning Alerts</string>
+    <string name="n_truck">Truck Alerts</string>
+    <string name="n_sensor">Sensor Alerts</string>
+    <string name="set_data">Data</string>
+    <string name="refresh_fmt">Refresh Interval: %1$d seconds</string>
+    <string name="demo_mode">Demo Mode / Test Data</string>
+    <string name="api_config">API Configuration</string>
+    <string name="api_placeholder">Not connected (FastAPI connection point)</string>
+    <string name="set_about">About</string>
+    <string name="about_version_fmt">MineSpray • Version %1$s</string>
+    <string name="about_desc">Smart automated haul-road watering management system for mining operations. UI prototype with demo data.</string>
+    <string name="local_note">Some options are currently stored locally and will be connected to the backend later.</string>
+
+    <!-- Zone Names -->
+    <string-array name="zone_names">
+        <item>Pit Exit</item>
+        <item>South Ramp</item>
+        <item>Loading Area</item>
+        <item>North Ramp</item>
+        <item>Intersection A</item>
+        <item>East Haul Road</item>
+        <item>Crusher Road</item>
+        <item>Dump Access</item>
+        <item>West Bench</item>
+        <item>Refill Road</item>
+        <item>Service Road</item>
+        <item>Ridge Road</item>
+    </string-array>
+
+</resources>
