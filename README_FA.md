@@ -268,11 +268,6 @@ MineSpray از دو زبان پشتیبانی می‌کند:
 
 ### دریافت پروژه
 
-```bash
-git clone https://github.com/YOUR_USERNAME/MineSpray.git
-cd MineSpray
-```
-
 سپس پروژه را در Android Studio باز کنید و اجازه دهید Gradle پروژه را Sync کند.
 
 بعد از انتخاب Emulator یا گوشی واقعی، کانفیگ `app` را اجرا کنید.
